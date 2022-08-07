@@ -68,7 +68,27 @@ int main() {
   
   cout<<l1.back()<<endl; // to see last element of list
   
+  // some more functions in list
   
-  		
+  l2.push_back("lemon");
+  l2.push_back("guava");		
+  
+  for(string s:l2){
+	  cout<<s<<" ";
+	  
+  }
+  cout<<endl;
+  // remove a fruit by value
+  string f;
+  cin>>f;
+  
+  l2.remove(f);
+  l2.sort();
+  for(auto s:l2){
+	  cout<<s<<" ";
+	  
+  }cout<<endl;
+  
+  
 	return 0;
 }
