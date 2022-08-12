@@ -1,0 +1,4 @@
+command + / = comment one line
+command +option+/ = comment the selecte area
+command + d = select same words
+command + shift +d = to repeat the line 
