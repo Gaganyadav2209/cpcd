@@ -14,7 +14,7 @@ using namespace std;
 
 int main() {
 
- // set can stor unique elements
+ // set can store unique elements
  // for ex :- we have an array containing elements as 1,1,2,3,4,5,4,4,
  
  // then set can be used to store these elements as it only stores unique values
